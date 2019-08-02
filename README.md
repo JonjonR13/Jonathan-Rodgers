@@ -1,4 +1,4 @@
-# Minimalist
+# Jonathan ROdgers
 
 [![Build Status](https://travis-ci.org/Trybnetic/minimalist.svg?branch=master)](https://travis-ci.org/Trybnetic/minimalist)
 [![License](https://img.shields.io/github/license/Trybnetic/minimalist.svg)](https://github.com/Trybnetic/minimalist/blob/master/LICENSE.txt)  
