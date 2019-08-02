@@ -1,7 +1,9 @@
 ### Site Settings ###
 title               :Jonathan Rodgers
 description         : >-                              # >- means to ignore newlines until "url:"
-                      I turn chores into robots.. you are welcome:).
+                      I turn coffee into code,
+                      use tabs over spaces
+                      and never broke production.
 
 url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : "/portfolYOU"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
