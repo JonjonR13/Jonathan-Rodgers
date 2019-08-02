@@ -1,6 +1,6 @@
 ### Site Settings ###
 title               :Jonathan Rodgers
-description         : >-                               # >- means to ignore newlines until "url:"
+description         : >-                              # >- means to ignore newlines until "url:"
                       I turn chores into robots.. you are welcome:).
 
 url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
