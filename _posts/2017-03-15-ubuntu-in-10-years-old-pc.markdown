@@ -10,9 +10,7 @@ summary: The Garbage Project
 permalink: /thechoreproject/
 ---
 
- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
- tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
- quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
- consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
- cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
- proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ We are going to change the world!
+
+ Over the past few months we have developed kits that kids can put together to make robots do their chores! Why would we want to make kids lazy? We don't, and we actually believe that this project will educate kids and the next generation in robots, stem, and programming. Here is an example of one of our many kits. We have developed a robot that can built in 1-2 hours and programmed in less than 30 minutes to take the garbage cans to the road every week!!! Yes, we are conquering the world of chores! We call this amazing bot,"chorebot.Mach1," and yes, it is mach1 mach2 is being developed and will likey be attacheable to all garbage cans and or lawnmowers or vacuums. When we partner with kids we will automate the world!
+ 
