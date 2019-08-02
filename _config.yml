@@ -1,9 +1,7 @@
 ### Site Settings ###
-title               : portfolYOU
+title               :Jonathan Rodgers
 description         : >-                               # >- means to ignore newlines until "url:"
-                      I turn coffee into code,
-                      use tabs over spaces
-                      and never broke production.
+                      I turn chores into robots.. you are welcome:).
 
 url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : "/portfolYOU"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
@@ -16,11 +14,11 @@ author:
   image             : https://bit.ly/2KCvgVJ
   behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+  email             : rodgersjonathan11@outlook.com
   facebook          : your_username
   github            : your_username
 # gitlab            : your_username
-# instagram         : your_username
+  instagram         : jonathan_elliott__
   linkedin          : your_username
   medium            : your_username
 # soundcloud        : your_username
