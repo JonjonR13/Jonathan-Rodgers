@@ -1,13 +1,13 @@
 ---
 layout: post
 cover: assets/images/1.jpg
-title: Ubuntu in old PC
+title: The Chore Project
 date: 2017-03-15 12:00:00 +0545
 categories: blog
 author: jonathan Rodgers
 featured: true
 summary: The Garbage Project
-permalink: /category/blog/
+permalink: /thechoreproject/
 ---
 
  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
