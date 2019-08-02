@@ -1,5 +1,5 @@
 # Site
-name: John Doe
+name: Jonathan Rodgers
 description: Just another website
 meta_description: Just another website
 logo: /assets/images/logo.png
@@ -14,13 +14,13 @@ sharethis:
 # Authors
 authors:
   john:
-    name: john
-    display_name: John Doe
-    image: /assets/images/john.jpg
-    email: hello@john.doe
+    name: Jonathan Rodgers
+    display_name: Jonathan Rodgers
+    image: /assets/images/home.jpg
+    email: rodgersjonathan11@outlook.com
     web: example.com
     twitter:
-    description: Hi, I am John Doe.
+    description: Hi, I am Jonathan Rodgers
 
 # Plugins
 plugins:
