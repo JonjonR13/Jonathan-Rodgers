@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lorem ipsum"
+title:  "The Garbage Can Project"
 date:   2017-09-06 01:03:29 +0200
 categories: jekyll update
 comments: true
