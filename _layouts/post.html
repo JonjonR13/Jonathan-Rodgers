@@ -1,31 +1,36 @@
-<!DOCTYPE html>
-<html lang="{{site.language}}">
-  {% include head.html %}
-  <body>
-	<div id="main">
-  	{% include logo.html %}
-  	{% include nav.html %}
-		<div id="content-left">
-      <div id="post">
-        <h2>{{ page.title }}</h2>
-        <i>posted on {{ page.date | date: "%-d %b %Y" }}</i>
-        {{ content }}
-        {% if page.categories.size > 0 %}
-          <div id="categories">
-            <p><b>Categories:</b>&nbsp;
-              {% for category in page.categories %}
-                <a href="{{site.url}}{{site.baseurl}}/categories/{{category}}/">#{{category}}</a>&nbsp;
-              {% endfor %}
-            </p>
-          </div>
-        {% endif %}
-        {% if site.disqus_username and page.comments or site.comments %}
-          <div id="disqus_thread"></div><!-- /#disqus_thread -->
-          {% include disqus-comments.html %}
-        {% endif %}
-  		</div>
-    </div>
-		{% include footer.html %}
-	</div>
-    </body>
-</html>
+---
+layout: page
+---
+
+<h1><b>{{ page.title }}</b></h1>
+
+<p class="article-metadata text-muted">
+  {{ page.date | date_to_long_string }} -  
+  <b>
+  {% assign words = content | number_of_words %}
+  {% if words < 360 %}
+    less than 1 min read time
+  {% else %}
+    {{ words | divided_by:180 }} mins read time
+  {% endif %}
+  </b>
+
+  <br>
+
+  {% if page.tags != empty %}
+    Tags: 
+    {% for tag in page.tags %}
+    <a class="text-decoration-none no-underline" href="{{ tag | slugify | prepend:'/articles/tags#' | relative_url }}">
+      <span class="tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
+    </a>
+    {% endfor %}
+  {% endif %}
+
+</p>
+
+{{ content }}
+
+<footer>
+  This Article is <b>open source</b>. Noticed a typo? </br>
+  Or something unclear? Improve it on {% github_edit_link "GitHub" %}.
+</footer>

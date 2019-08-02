@@ -1,24 +1,5 @@
 ---
 layout: default
 ---
-<body style=" background-image: url(https://garibaldicharters.com/wp-content/uploads/2016/07/water-background.jpg
-);  background-repeat: no-repeat; background-size: cover; ">
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% assign sorted-posts = site.posts | reverse %}
-    {% for post in sorted-posts %}
-      <li>
-        <h2 class="wrapper">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-              <!-- {% if post.image %}<img style="float: right" src="{{ post.image }}" height="200">{% endif %} -->
-              {{ post.title }}
-          </a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-</div>
+{% include landing.html %}
