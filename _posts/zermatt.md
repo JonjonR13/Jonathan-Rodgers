@@ -7,7 +7,7 @@ categories: blog
 author: jonathan Rodgers
 featured: true
 summary: Project zermatt
-permalink: /projectZERMATT
+permalink: /projectzermatt/
 ---
 
 Project zermatt: Enabling thrill seeker and adventurers to explore on a budget 
