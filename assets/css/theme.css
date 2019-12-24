@@ -7,13 +7,6 @@ License: Attribution-NonCommercial 4.0 International
 */
 body {
     font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-    background-image: url(http://cdn.cnn.com/cnnnext/dam/assets/181112105209-11-us-and-canada-skiing.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    justify-content: center;
-    align-content: center;
-    display: flex;
 }
 .mainheading {
 	padding: 0rem 0rem 1rem 0;
